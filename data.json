@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "John", "role": "administrator" },
+  { "id": 3, "name": "Jack", "role": "administrator" },
+  { "id": 0.5474229499651029, "name": "Simon", "role": "tutor" }
+]

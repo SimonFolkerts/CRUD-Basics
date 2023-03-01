@@ -63,7 +63,7 @@ app.get("/:userId", (req, res) => {
   const rawData = fs.readFileSync("./data.json");
   // decode buffer to JS to get the user array
   const array = JSON.parse(rawData);
-  console.log(array);
+
   // find the user object in the array by checking the id. Note, the url parameters are always strings, so we need to do loose comparison (==) not (===)
   const requestedUser = array.find((user) => user.id == req.params.userId);
   // send user as JSON using .json();
